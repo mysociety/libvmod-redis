@@ -1,8 +1,14 @@
+libvmod-redis (12.0-1+ms3) stable; urgency=low
+
+    * Ensure correct libdir specified for Debian Bullseye
+
+ -- Sam Pearson <sam@sgp.me.uk>  Thu, 13 Jan 2022 16:38:15:00 +0000
+
 libvmod-redis (12.0-1+ms2) stable; urgency=low
 
    * Ensure correct version of libhiredis is specified as dependency
 
- -- Sam Pearson <sam@sgp.me.uk>  Tue, 7 Sep 2021 08:44:00 +0100
+ -- Sam Pearson <sam@sgp.me.uk>  Thu, 13 Jan 2022 16:02:27:00 +0000
 
 libvmod-redis (12.0-1+ms1) stable; urgency=low
 

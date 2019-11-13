@@ -9,7 +9,7 @@ override_dh_gencontrol:
 	fi
 
 override_dh_auto_configure:
-	dh_auto_configure -- --disable-tls;
+	dh_auto_configure -- --disable-tls --libdir=/usr/lib/x86_64-linux-gnu;
 
 %:
 	dh $@
