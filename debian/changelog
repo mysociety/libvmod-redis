@@ -1,3 +1,9 @@
+libvmod-redis (12.0-1+ms1) stable; urgency=low
+
+   * Disable TLS Support and test to permit build for Debian Bullseye
+
+ -- Sam Pearson <sam@sgp.me.uk>  Tue, 7 Sep 2021 08:44:00 +0100
+
 libvmod-redis (12.0-1) stable; urgency=low
 
   * Migrated to Varnish Cache 6.5.x
