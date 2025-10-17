@@ -1,3 +1,11 @@
+libvmod-redis (15.1-1+ms1) stable; urgency=low
+
+  * Ensure correct version of libhiredis is specified as dependency
+  * Ensure correct libdir specified for Debian Bookworm
+  * Disable TLS Support and test to permit build for Debian Bookworm
+
+ -- Sam Pearson <sam@sgp.me.uk> Fri, 17 Oct 2025 16:16:00 +0100
+
 libvmod-redis (15.1-1) stable; urgency=low
 
   * Fixed missing string terminator in .stats() method
